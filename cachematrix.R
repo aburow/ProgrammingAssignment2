@@ -17,8 +17,8 @@ makeCacheMatrix <- function(x = matrix()) {
   #
   
   # Init variables for cacheing
-  i.cache <<- NULL
-  m.cache <<- x
+  i.cache <- NULL
+  m.cache <- x
   
   # set new matrix and clear inverse to indicate a change
   set <- function(x) {
